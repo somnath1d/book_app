@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: bisque;  
+    justify-content: center; 
+    align-items: center;      
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 15%;
+    background-color: white;
+    margin: 1%;
+
+    >img{
+        height: 70%;
+        width: 90%;
+        object-fit: contain;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        align-self: center;
+    }
+
+    >h2,h5,p{
+        margin: 0px;
+        margin-left: 10%;
+    }
+    
+    >button{
+        width: 40%;
+        height: 8%;
+        margin-top: 5%;
+        align-self: center;
+        border: 0px;
+        
+    }
+}

@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'book_app';
+
+  image: string = "https://m.media-amazon.com/images/I/715u7p+38+L._SL1500_.jpg";
+  book_name: string = "Manifest";
+  author: string = "Roxie Nafousi";
+  price: number = 310;
 }
